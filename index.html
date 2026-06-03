@@ -120,7 +120,7 @@
     e.preventDefault();
     var email = (document.getElementById('email').value || '').trim();
     if(!email) return;
-    if(SCRIPT_URL.indexOf('PASTE_') === 0){
+    if(!SCRIPT_URL || SCRIPT_URL.trim() === ''){
       msg.innerHTML = '⚠️ Chưa cấu hình gửi email — xem <code>apps-script/SETUP.md</code>.';
       return;
     }
