@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Baro Bao — Career & AI cho người Việt biết tiếng Nhật</title>
+<meta name="description" content="11 năm Dev → BrSE → PM → Sale → CEO tại công ty IT thị trường Nhật. Chia sẻ cách nhảy ladder career + 10× năng suất bằng AI.">
+<!-- Open Graph (share đẹp trên FB/Zalo) -->
+<meta property="og:title" content="Baro Bao — Career & AI cho người Việt biết tiếng Nhật">
+<meta property="og:description" content="Nhận miễn phí: Bộ 20 prompt + 5 trợ lý Claude cho công việc.">
+<meta property="og:type" content="website">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;600;700;800&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --navy:#1B2A4A; --navy2:#142038; --red:#E8552D; --ink:#1f2733;
+    --muted:#5b6676; --bg:#f4f5f7; --card:#ffffff;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{font-family:"Be Vietnam Pro",system-ui,sans-serif;color:var(--ink);background:var(--bg);line-height:1.6}
+  .wrap{max-width:640px;margin:0 auto;padding:0 20px}
+
+  /* HERO */
+  header{background:linear-gradient(160deg,var(--navy),var(--navy2));color:#fff;padding:56px 0 48px;text-align:center}
+  .avatar{width:96px;height:96px;border-radius:50%;object-fit:cover;border:3px solid var(--red);background:#26344f;margin:0 auto 18px;display:block}
+  header h1{font-size:1.9rem;font-weight:800;letter-spacing:-.5px}
+  header .tag{color:#c8d2e4;font-weight:600;margin-top:8px;font-size:1.05rem}
+  .arc{margin-top:16px;font-size:.86rem;color:#9fb0cc;letter-spacing:.3px}
+  .arc b{color:var(--red)}
+
+  /* LEAD MAGNET CARD */
+  .card{background:var(--card);border-radius:18px;box-shadow:0 10px 30px rgba(20,32,56,.10);margin:-28px auto 28px;padding:28px 24px}
+  .pill{display:inline-block;background:#fdeee8;color:var(--red);font-weight:700;font-size:.78rem;padding:6px 12px;border-radius:999px;letter-spacing:.4px;text-transform:uppercase}
+  .card h2{font-size:1.4rem;font-weight:800;margin:14px 0 6px;letter-spacing:-.3px}
+  .card p.sub{color:var(--muted);margin-bottom:18px}
+  ul.benefits{list-style:none;margin:0 0 22px}
+  ul.benefits li{padding:7px 0 7px 30px;position:relative;font-weight:600}
+  ul.benefits li::before{content:"✓";position:absolute;left:0;top:7px;color:#fff;background:var(--red);width:20px;height:20px;border-radius:50%;font-size:.72rem;display:flex;align-items:center;justify-content:center;font-weight:800}
+
+  /* FORM */
+  .formbox{background:#f7f9fc;border:1px solid #e6eaf1;border-radius:14px;padding:18px}
+  .formbox label{font-size:.82rem;color:var(--muted);font-weight:600}
+  .formbox input[type=email]{width:100%;padding:13px 14px;border:1px solid #cfd6e2;border-radius:10px;font-size:1rem;font-family:inherit;margin:8px 0 12px}
+  .formbox button{width:100%;padding:14px;border:0;border-radius:10px;background:var(--red);color:#fff;font-size:1.02rem;font-weight:700;font-family:inherit;cursor:pointer;transition:.15s}
+  .formbox button:hover{background:#cf4621}
+  .note{font-size:.74rem;color:#8a94a4;text-align:center;margin-top:10px}
+
+  /* SOCIAL */
+  section.social{padding:6px 0 10px;text-align:center}
+  section.social h3{font-size:1.05rem;margin-bottom:14px;color:var(--navy)}
+  .links{display:flex;flex-direction:column;gap:10px}
+  .links a{display:block;background:#fff;border:1px solid #e6eaf1;border-radius:12px;padding:14px;font-weight:700;color:var(--ink);text-decoration:none;transition:.15s}
+  .links a:hover{border-color:var(--red);transform:translateY(-1px)}
+  .links a span{color:var(--muted);font-weight:500;font-size:.85rem}
+
+  footer{text-align:center;color:#9aa3b2;font-size:.78rem;padding:30px 0 40px}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="wrap">
+    <!-- Thay bằng ảnh thật: đặt avatar.jpg cùng thư mục -->
+    <img class="avatar" src="avatar.jpg" alt="Baro Bao" onerror="this.style.display='none'">
+    <h1>Baro Bao</h1>
+    <div class="tag">Career &amp; AI cho người Việt biết tiếng Nhật</div>
+    <div class="arc">Dev → BrSE → PM → Sale → <b>CEO</b> · 11 năm tại công ty IT thị trường Nhật</div>
+  </div>
+</header>
+
+<div class="wrap">
+  <!-- LEAD MAGNET -->
+  <div class="card">
+    <span class="pill">🎁 Tải miễn phí</span>
+    <h2>Bộ 20 Prompt + 5 Trợ Lý Claude Cho Công Việc</h2>
+    <p class="sub">Đúng bộ mình dùng để giao 80% việc lặp cho AI mỗi ngày — copy về dùng ngay.</p>
+    <ul class="benefits">
+      <li>20 prompt: email (cả tiếng Nhật), research, tự động hóa, content, kế hoạch</li>
+      <li>5 “trợ lý” Claude cài 1 lần, dùng mãi</li>
+      <li>Kèm newsletter mỗi thứ Bảy: 1 câu chuyện + 1 tip AI cho công việc</li>
+    </ul>
+
+    <div class="formbox">
+      <!-- ============================================================
+           CHÈN FORM EMAIL Ở ĐÂY (free):
+           Cách 1 (khuyên dùng): MailerLite → Forms → Embedded → copy mã dán đè cả khối <form> dưới.
+           Cách 2: Kit (ConvertKit) → Landing pages & Forms → Embed (HTML) → dán vào.
+           Khối <form> dưới là DEMO giao diện; chưa lưu được email tới khi anh thay bằng mã của tool.
+           ============================================================ -->
+      <form onsubmit="alert('Đây là form demo — thay bằng mã nhúng MailerLite/Kit để bắt email thật. Xem hướng dẫn trong README.'); return false;">
+        <label for="email">Nhập email để nhận bộ prompt ngay:</label>
+        <input type="email" id="email" name="email" placeholder="email@cuaban.com" required>
+        <button type="submit">Gửi cho tôi bộ prompt →</button>
+      </form>
+      <div class="note">Không spam. Hủy đăng ký bất cứ lúc nào.</div>
+    </div>
+  </div>
+
+  <!-- SOCIAL / LINK-IN-BIO -->
+  <section class="social">
+    <h3>Theo dõi mình</h3>
+    <div class="links">
+      <a href="#" target="_blank">▶️ YouTube <span>— video AI cho công việc mỗi tuần</span></a>
+      <a href="#" target="_blank">🎵 TikTok <span>— tip nhanh mỗi T2/T4/T6</span></a>
+      <a href="#" target="_blank">💼 LinkedIn <span>— career &amp; AI cho dân làm việc với Nhật</span></a>
+    </div>
+  </section>
+</div>
+
+<footer>
+  © 2026 Baro Bao · Career &amp; AI cho người Việt biết tiếng Nhật
+</footer>
+
+</body>
+</html>
