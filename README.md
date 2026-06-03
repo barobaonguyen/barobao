@@ -8,9 +8,9 @@
 Mình chia sẻ cách **nhảy ladder sự nghiệp** và **dùng AI để làm việc gấp 3–5 lần** trong môi trường công ty Nhật.
 
 [![Website](https://img.shields.io/badge/Website-1B2A4A?style=for-the-badge&logo=googlechrome&logoColor=white)](https://barobaonguyen.github.io/barobao/)
-[![YouTube](https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://youtube.com/@barobao)
-[![TikTok](https://img.shields.io/badge/TikTok-000000?style=for-the-badge&logo=tiktok&logoColor=white)](https://tiktok.com/@barobao)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/barobao)
+[![YouTube](https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/@baronguyen001)
+[![TikTok](https://img.shields.io/badge/TikTok-000000?style=for-the-badge&logo=tiktok&logoColor=white)](https://www.tiktok.com/@baronguyen001)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/baronguyen001)
 
 </div>
 
@@ -44,9 +44,9 @@ Bao gồm:
 ## 📺 Kết nối với mình
 
 - 🌐 **Website / nhận bộ prompt**: https://barobaonguyen.github.io/barobao/
-- ▶️ **YouTube**: [@barobao](https://youtube.com/@barobao) — video mới mỗi tuần
-- 🎵 **TikTok**: [@barobao](https://tiktok.com/@barobao)
-- 💼 **LinkedIn**: [Baro Bao](https://linkedin.com/in/barobao)
+- ▶️ **YouTube**: [@baronguyen001](https://www.youtube.com/@baronguyen001) — video mới mỗi tuần
+- 🎵 **TikTok**: [@baronguyen001](https://www.tiktok.com/@baronguyen001)
+- 💼 **LinkedIn**: [Baro Bao](https://www.linkedin.com/in/baronguyen001)
 
 ---
 
@@ -56,5 +56,5 @@ Bao gồm:
 
 <!--
 Tài liệu kỹ thuật (deploy / setup form email): xem DEPLOY.md
-Link YouTube/TikTok/LinkedIn ở trên đang dùng handle @barobao — kiểm tra & thay nếu khác.
+YouTube/TikTok = @baronguyen001 (chuẩn). LinkedIn /in/baronguyen001 là phỏng đoán theo handle — kiểm tra/đổi nếu khác.
 -->
