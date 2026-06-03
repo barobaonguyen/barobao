@@ -1,54 +1,37 @@
-# Hướng dẫn deploy & setup (nội bộ)
+# Hướng dẫn deploy & setup (nội bộ) — trang giới thiệu
 
-Landing page tĩnh trên GitHub Pages, 100% free. (File này là tài liệu kỹ thuật — phần giới thiệu công khai nằm ở `README.md`.)
+Trang giới thiệu bản thân (link-in-bio) tĩnh trên GitHub Pages, 100% free. (Phần công khai ở `README.md`.)
+
+> 🔁 Trang **nhận quà / nhập email** đã tách sang repo riêng **`prompt_workflow_gift`**
+> (`e:/Indie Hacker/prompt_workflow_gift/` · live `https://baronguyen001.github.io/prompt_workflow_gift/`).
+> Trang `home` này chỉ giới thiệu + 1 nút CTA 🎁 dẫn sang trang nhận quà.
 
 ---
 
 ## A. Deploy lên GitHub Pages
 
-> Repo: `barobaonguyen/baronguyen001` → live tại https://barobaonguyen.github.io/baronguyen001/
-> ✅ Đã deploy 2026-06-03. Các lần cập nhật sau:
+> Repo: `baronguyen001/home` → live tại https://baronguyen001.github.io/home/
 
 ```bash
 git add . && git commit -m "update landing" && git push
 ```
-(Thư mục đã pin sẵn identity **barobaonguyen** qua local config + SSH alias `git@barobaonguyen:` — không cần switch account thủ công.)
+(Thư mục đã pin identity **baronguyen001** + SSH alias `git@baronguyen001:` — không cần switch account thủ công.)
 
-### Gắn domain riêng `barobao.com` (sau khi validate, ~$10/năm)
-- Mua domain → repo Settings → Pages → Custom domain → nhập `barobao.com` → thêm DNS theo hướng dẫn GitHub. Không phải build lại.
-
----
-
-## B. Bắt email + tự gửi lead magnet (free) — MailerLite
-
-> GitHub Pages không tự lưu email → cần form của công cụ email. **MailerLite free**: tới 1.000 subscriber + automation.
-
-1. Đăng ký mailerlite.com (free).
-2. **Forms → Embedded form** → tạo form "Nhận bộ prompt" → **Embed** → copy mã HTML.
-3. Trong `index.html`, tìm khối `<!-- CHÈN FORM EMAIL Ở ĐÂY -->` → xóa cả khối `<form>` demo → dán mã MailerLite vào.
-4. **Automation**: trigger "khi đăng ký form này" → gửi email kèm link PDF lead magnet (nội dung lấy từ `PHASE0/04_tech_studio.md`).
-5. Commit + push.
-
-> Có thể thay bằng **Kit (ConvertKit) free** — bước tương tự.
+### Gắn domain riêng (sau khi validate, ~$10/năm)
+- Mua domain → repo Settings → Pages → Custom domain → thêm DNS theo hướng dẫn GitHub. Không phải build lại.
 
 ---
 
-## C. Host PDF lead magnet (free)
-- Bỏ `leadmagnet.pdf` vào repo → link `https://barobaonguyen.github.io/baronguyen001/leadmagnet.pdf`, hoặc Google Drive (share "ai có link").
-- Nội dung PDF: `PHASE0/07_lead_magnet_AI.md`, format bằng Canva free.
-
----
-
-## D. Cần thay trong `index.html`
+## B. Cần thay trong `index.html`
 - [ ] `avatar.jpg`: bỏ ảnh chân dung vào thư mục (hoặc xóa dòng `<img>`).
-- [ ] 3 link social `href="#"` → link thật.
-- [ ] Khối `<form>` demo → mã nhúng MailerLite/Kit.
+- [x] Link social (YouTube/TikTok/LinkedIn) đã là `@baronguyen001`.
+- [x] Nút CTA 🎁 trỏ sang `https://baronguyen001.github.io/prompt_workflow_gift/`.
 
-## E. Analytics free (tùy chọn)
+## C. Analytics free (tùy chọn)
 - Cloudflare Web Analytics (free, không cookie banner) hoặc GA4.
 
 ---
 
 ## Git identity (quan trọng)
-- Thư mục này MUST dùng **barobaonguyen**, KHÔNG dùng bao-mk1.
-- Đã set: local `user.name=barobaonguyen`, `user.email=265752715+barobaonguyen@users.noreply.github.com`, remote `git@barobaonguyen:barobaonguyen/baronguyen001.git`.
+- Thư mục này MUST dùng **baronguyen001**, KHÔNG dùng bao-mk1.
+- Đã set: local `user.name=baronguyen001`, `user.email=265752715+baronguyen001@users.noreply.github.com`, remote `git@baronguyen001:baronguyen001/home.git`.

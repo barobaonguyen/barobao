@@ -7,7 +7,7 @@
 **11 năm: Dev → BrSE → PM → Sale → CEO** tại công ty IT phục vụ thị trường Nhật.
 Mình chia sẻ cách **nhảy ladder sự nghiệp** và **dùng AI để làm việc gấp 3–5 lần** trong môi trường công ty Nhật.
 
-[![Website](https://img.shields.io/badge/Website-1B2A4A?style=for-the-badge&logo=googlechrome&logoColor=white)](https://barobaonguyen.github.io/baronguyen001/)
+[![Website](https://img.shields.io/badge/Website-1B2A4A?style=for-the-badge&logo=googlechrome&logoColor=white)](https://baronguyen001.github.io/home/)
 [![YouTube](https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/@baronguyen001)
 [![TikTok](https://img.shields.io/badge/TikTok-000000?style=for-the-badge&logo=tiktok&logoColor=white)](https://www.tiktok.com/@baronguyen001)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/baronguyen001)
@@ -22,7 +22,7 @@ Mình chia sẻ cách **nhảy ladder sự nghiệp** và **dùng AI để làm 
 
 Đúng bộ mình dùng để giao **80% việc lặp** cho AI mỗi ngày — copy về dùng được ngay.
 
-> 👉 **Nhận miễn phí tại: [barobaonguyen.github.io/baronguyen001](https://barobaonguyen.github.io/baronguyen001/)**
+> 👉 **Nhận miễn phí tại: [baronguyen001.github.io/prompt_workflow_gift](https://baronguyen001.github.io/prompt_workflow_gift/)**
 
 Bao gồm:
 - ✅ **20 prompt** chia 5 nhóm: email (cả tiếng Nhật), research, tự động hóa, content, lập kế hoạch
@@ -43,7 +43,8 @@ Bao gồm:
 
 ## 📺 Kết nối với mình
 
-- 🌐 **Website / nhận bộ prompt**: https://barobaonguyen.github.io/baronguyen001/
+- 🌐 **Website (giới thiệu)**: https://baronguyen001.github.io/home/
+- 🎁 **Nhận bộ prompt miễn phí**: https://baronguyen001.github.io/prompt_workflow_gift/
 - ▶️ **YouTube**: [@baronguyen001](https://www.youtube.com/@baronguyen001) — video mới mỗi tuần
 - 🎵 **TikTok**: [@baronguyen001](https://www.tiktok.com/@baronguyen001)
 - 💼 **LinkedIn**: [Baro Nguyen](https://www.linkedin.com/in/baronguyen001)
@@ -55,6 +56,6 @@ Bao gồm:
 </div>
 
 <!--
-Tài liệu kỹ thuật (deploy / setup form email): xem DEPLOY.md
+Tài liệu kỹ thuật (deploy): xem DEPLOY.md. Trang nhận quà / nhập email: repo prompt_workflow_gift.
 YouTube/TikTok = @baronguyen001 (chuẩn). LinkedIn /in/baronguyen001 là phỏng đoán theo handle — kiểm tra/đổi nếu khác.
 -->

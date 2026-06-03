@@ -7,16 +7,13 @@
 <meta name="description" content="11 năm Dev → BrSE → PM → Sale → CEO tại công ty IT thị trường Nhật. Chia sẻ cách nhảy ladder career + 10× năng suất bằng AI.">
 <!-- Open Graph (share đẹp trên FB/Zalo) -->
 <meta property="og:title" content="Baro Nguyen — Career & AI cho người Việt biết tiếng Nhật">
-<meta property="og:description" content="Nhận miễn phí: Bộ 20 prompt + 5 trợ lý Claude cho công việc.">
+<meta property="og:description" content="Career & AI cho người Việt biết tiếng Nhật. Nhận miễn phí bộ 20 prompt + 5 trợ lý Claude cho công việc.">
 <meta property="og:type" content="website">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;600;700;800&display=swap" rel="stylesheet">
 <style>
-  :root{
-    --navy:#1B2A4A; --navy2:#142038; --red:#E8552D; --ink:#1f2733;
-    --muted:#5b6676; --bg:#f4f5f7; --card:#ffffff;
-  }
+  :root{--navy:#1B2A4A;--navy2:#142038;--red:#E8552D;--ink:#1f2733;--muted:#5b6676;--bg:#f4f5f7;--card:#ffffff;}
   *{box-sizing:border-box;margin:0;padding:0}
   body{font-family:"Be Vietnam Pro",system-ui,sans-serif;color:var(--ink);background:var(--bg);line-height:1.6}
   .wrap{max-width:640px;margin:0 auto;padding:0 20px}
@@ -29,24 +26,24 @@
   .arc{margin-top:16px;font-size:.86rem;color:#9fb0cc;letter-spacing:.3px}
   .arc b{color:var(--red)}
 
-  /* LEAD MAGNET CARD */
-  .card{background:var(--card);border-radius:18px;box-shadow:0 10px 30px rgba(20,32,56,.10);margin:-28px auto 28px;padding:28px 24px}
-  .pill{display:inline-block;background:#fdeee8;color:var(--red);font-weight:700;font-size:.78rem;padding:6px 12px;border-radius:999px;letter-spacing:.4px;text-transform:uppercase}
-  .card h2{font-size:1.4rem;font-weight:800;margin:14px 0 6px;letter-spacing:-.3px}
-  .card p.sub{color:var(--muted);margin-bottom:18px}
-  ul.benefits{list-style:none;margin:0 0 22px}
-  ul.benefits li{padding:7px 0 7px 30px;position:relative;font-weight:600}
-  ul.benefits li::before{content:"✓";position:absolute;left:0;top:7px;color:#fff;background:var(--red);width:20px;height:20px;border-radius:50%;font-size:.72rem;display:flex;align-items:center;justify-content:center;font-weight:800}
+  /* INTRO CARD */
+  .card{background:var(--card);border-radius:18px;box-shadow:0 10px 30px rgba(20,32,56,.10);margin:-28px auto 22px;padding:26px 24px}
+  .card .intro{font-size:1.02rem;margin-bottom:16px}
+  ul.topics{list-style:none}
+  ul.topics li{padding:11px 0;border-top:1px solid #eef1f5}
+  ul.topics li:first-child{border-top:0}
+  ul.topics b{color:var(--navy)}
+  ul.topics span{display:block;color:var(--muted);font-size:.9rem;margin-top:2px}
 
-  /* FORM */
-  .formbox{background:#f7f9fc;border:1px solid #e6eaf1;border-radius:14px;padding:18px}
-  .formbox label{font-size:.82rem;color:var(--muted);font-weight:600}
-  .formbox input[type=email]{width:100%;padding:13px 14px;border:1px solid #cfd6e2;border-radius:10px;font-size:1rem;font-family:inherit;margin:8px 0 12px}
-  .formbox button{width:100%;padding:14px;border:0;border-radius:10px;background:var(--red);color:#fff;font-size:1.02rem;font-weight:700;font-family:inherit;cursor:pointer;transition:.15s}
-  .formbox button:hover{background:#cf4621}
-  .note{font-size:.74rem;color:#8a94a4;text-align:center;margin-top:10px}
+  /* GIFT CTA -> opt-in page */
+  .giftcta{display:block;text-decoration:none;background:linear-gradient(135deg,#fff3ee,#ffe9e0);border:1px solid #f6d8cb;border-radius:16px;padding:20px 22px;margin:0 auto 24px;transition:.15s}
+  .giftcta:hover{transform:translateY(-2px);box-shadow:0 8px 24px rgba(232,85,45,.18)}
+  .giftcta .pill{display:inline-block;background:var(--red);color:#fff;font-weight:700;font-size:.72rem;padding:5px 11px;border-radius:999px;letter-spacing:.5px;text-transform:uppercase}
+  .giftcta h2{color:var(--navy);font-size:1.2rem;font-weight:800;margin:12px 0 4px;letter-spacing:-.3px}
+  .giftcta p{color:var(--muted);font-size:.92rem;margin-bottom:12px}
+  .giftcta .go{color:var(--red);font-weight:800;font-size:1rem}
 
-  /* SOCIAL */
+  /* SOCIAL / LINK-IN-BIO */
   section.social{padding:6px 0 10px;text-align:center}
   section.social h3{font-size:1.05rem;margin-bottom:14px;color:var(--navy)}
   .links{display:flex;flex-direction:column;gap:10px}
@@ -70,29 +67,25 @@
 </header>
 
 <div class="wrap">
-  <!-- LEAD MAGNET -->
+  <!-- INTRO -->
   <div class="card">
-    <span class="pill">🎁 Tải miễn phí</span>
-    <h2>Bộ 20 Prompt + 5 Trợ Lý Claude Cho Công Việc</h2>
-    <p class="sub">Đúng bộ mình dùng để giao 80% việc lặp cho AI mỗi ngày — copy về dùng ngay.</p>
-    <ul class="benefits">
-      <li>20 prompt: email (cả tiếng Nhật), research, tự động hóa, content, kế hoạch</li>
-      <li>5 “trợ lý” Claude cài 1 lần, dùng mãi</li>
-      <li>Kèm newsletter mỗi thứ Bảy: 1 câu chuyện + 1 tip AI cho công việc</li>
+    <p class="intro">Mình chia sẻ cách <b>nhảy ladder sự nghiệp</b> và <b>dùng AI để làm việc gấp 3–5 lần</b> trong môi trường công ty Nhật.</p>
+    <ul class="topics">
+      <li><b>🤖 AI cho công việc</b><span>Claude / Claude Code, tự động hóa, “vibe-coding” cho người không rành kỹ thuật</span></li>
+      <li><b>🇯🇵 Sự nghiệp tại công ty Nhật</b><span>Lộ trình N3 → BrSE → PM → Sale, giao tiếp business Nhật (Hourensou, email, họp)</span></li>
+      <li><b>📈 Năng suất</b><span>Cách làm việc gấp 3–5 lần bằng hệ thống + AI</span></li>
     </ul>
-
-    <div class="formbox">
-      <!-- Form POST tới Google Apps Script → gửi email thật + đính kèm PDF + BCC. Setup: apps-script/SETUP.md -->
-      <form id="leadForm">
-        <label for="email">Nhập email để nhận bộ prompt ngay:</label>
-        <input type="email" id="email" name="email" placeholder="email@cuaban.com" required>
-        <button type="submit" id="leadBtn">Gửi cho tôi bộ prompt →</button>
-      </form>
-      <div class="note" id="leadMsg">Không spam. Hủy đăng ký bất cứ lúc nào.</div>
-    </div>
   </div>
 
-  <!-- SOCIAL / LINK-IN-BIO -->
+  <!-- GIFT CTA -->
+  <a class="giftcta" href="https://baronguyen001.github.io/prompt_workflow_gift/">
+    <span class="pill">🎁 Quà miễn phí</span>
+    <h2>Bộ 20 Prompt + 5 Trợ Lý Claude cho công việc</h2>
+    <p>Đúng bộ mình dùng để giao 80% việc lặp cho AI mỗi ngày — copy về dùng ngay.</p>
+    <div class="go">Nhận miễn phí →</div>
+  </a>
+
+  <!-- SOCIAL -->
   <section class="social">
     <h3>Theo dõi mình</h3>
     <div class="links">
@@ -107,37 +100,5 @@
   © 2026 Baro Nguyen · Career &amp; AI cho người Việt biết tiếng Nhật
 </footer>
 
-<script>
-(function(){
-  // 👉 Dán URL Web app Google Apps Script vào đây (hướng dẫn: apps-script/SETUP.md)
-  var SCRIPT_URL = "https://script.google.com/macros/s/AKfycbx6ltX_0sL0liyYmnQ5OMH4Bm4QqhqUaJneDX0IU9HjScqAxnSQwz3ROk__bLOA-WkK/exec";
-
-  var form = document.getElementById('leadForm');
-  var btn  = document.getElementById('leadBtn');
-  var msg  = document.getElementById('leadMsg');
-
-  form.addEventListener('submit', function(e){
-    e.preventDefault();
-    var email = (document.getElementById('email').value || '').trim();
-    if(!email) return;
-    if(!SCRIPT_URL || SCRIPT_URL.trim() === ''){
-      msg.innerHTML = '⚠️ Chưa cấu hình gửi email — xem <code>apps-script/SETUP.md</code>.';
-      return;
-    }
-    btn.disabled = true; btn.textContent = 'Đang gửi...';
-    fetch(SCRIPT_URL, {
-      method: 'POST',
-      mode: 'no-cors',
-      body: new URLSearchParams({ email: email })
-    }).then(function(){
-      form.style.display = 'none';
-      msg.innerHTML = '✅ Đã gửi! Kiểm tra hộp thư (kể cả mục <b>Quảng cáo / Spam</b>) trong vài phút nhé.';
-    }).catch(function(){
-      btn.disabled = false; btn.textContent = 'Gửi cho tôi bộ prompt →';
-      msg.textContent = 'Có lỗi, bạn thử lại giúp mình nhé.';
-    });
-  });
-})();
-</script>
 </body>
 </html>
